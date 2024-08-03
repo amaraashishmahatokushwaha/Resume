@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+.header, .section {
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.header h1, .header p, .header a {
+    margin: 0;
+}
+
+.header h1 {
+    margin-bottom: 10px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.skills h2, .education h2, .projects h2, .experience h2 {
+    margin-top: 0;
+}
+
+.download-link {
+    text-decoration: none;
+    color: #007bff;
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+}
